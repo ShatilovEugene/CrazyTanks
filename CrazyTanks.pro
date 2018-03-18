@@ -8,11 +8,13 @@ SOURCES += main.cpp \
     tanks.cpp \
     bullet.cpp \
     mapmanager.cpp \
-    enemymanager.cpp
+    enemymanager.cpp \
+    render.cpp
 
 HEADERS += \
     game.h \
     tanks.h \
     bullet.h \
     mapmanager.h \
-    enemymanager.h
+    enemymanager.h \
+    render.h

@@ -2,5 +2,5 @@
 
 Bullet::Bullet()
 {
-
+	//TODO realization
 }

@@ -1,6 +1,11 @@
 #include "mapmanager.h"
 
-MapManager::MapManager()
+MapManager::MapManager(std::vector &map)
 {
+			//TODO realization
+}
 
+MapManager::~MapManager()
+{
+			//TODO realization
 }

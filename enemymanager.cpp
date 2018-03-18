@@ -2,5 +2,10 @@
 
 EnemyManager::EnemyManager()
 {
+	//TODO realization
+}
 
+EnemyManager::~EnemyManager()
+{
+	//TODO realization
 }

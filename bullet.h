@@ -4,8 +4,10 @@
 
 class Bullet
 {
+	//TODO field:type
 public:
 	Bullet();
+	//TODO method(type):type
 };
 
 #endif // BULLET_H
