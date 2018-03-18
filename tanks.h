@@ -1,38 +1,34 @@
 #ifndef TANKS_H
 #define TANKS_H
+#include "debug.h"
 
-
-class Tanks
+enum Direction
 {
-private:
-	int X_LogicCoordinate;
-	int Y_LogicCoordinate;
-	int direction;
+	UP,
+	DOWN,
+	LEFT,
+	RIGHT
+};
+
+class Tank // TO DO: Tank
+{
+protected:
+	struct coordinate{
+	unsigned int X_Coordinate;
+	unsigned int Y_Coordinate;
+	};
+	unsigned int direction;
 
 public:
-	Tanks();
-	virtual ~Tanks();
-	virtual bool Detect_collisions() = 0;
-	virtual void Move() = 0;
+	Tank();
+	virtual ~Tank();
+	//virtual bool Detect_collisions() = 0;
+	virtual void Move(Direction direction) = 0;
 	virtual int position() = 0;
-//TODO method(type):type
-};
-
-class Player: public Tanks
-{
-private:
-//TODO field:type
-public:
-	Player();
-	~Player();
-	virtual bool Detect_collisions();
-	virtual void Move();
-	virtual int position();
-//TODO method(type):type
 
 };
 
-class EnemyTank: public Tanks
+class EnemyTank: public Tank
 {
 private:
 //TODO field:type

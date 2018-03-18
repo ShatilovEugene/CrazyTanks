@@ -9,7 +9,8 @@ SOURCES += main.cpp \
     bullet.cpp \
     mapmanager.cpp \
     enemymanager.cpp \
-    render.cpp
+    render.cpp \
+    player.cpp
 
 HEADERS += \
     game.h \
@@ -17,4 +18,6 @@ HEADERS += \
     bullet.h \
     mapmanager.h \
     enemymanager.h \
-    render.h
+    render.h \
+    debug.h \
+    player.h

@@ -1,5 +1,6 @@
 #ifndef BULLET_H
 #define BULLET_H
+#include "debug.h"
 
 
 class Bullet
@@ -7,6 +8,7 @@ class Bullet
 	//TODO field:type
 public:
 	Bullet();
+	~Bullet();
 	//TODO method(type):type
 };
 

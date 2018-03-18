@@ -4,3 +4,8 @@ Render::Render()
 {
 	//TODO realization
 }
+
+void Render::render()
+{
+
+}

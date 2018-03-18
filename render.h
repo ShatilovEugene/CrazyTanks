@@ -1,13 +1,13 @@
 #ifndef RENDER_H
 #define RENDER_H
+#include "debug.h"
 
-
-class Render
+class Render // TO DO: er
 {
 	//TODO field:type
 public:
 	Render();
-	//TODO method(type):type
+	void render();
 };
 
 #endif // RENDER_H
