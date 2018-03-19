@@ -1,15 +1,6 @@
-#include <iostream>
-#include "game.h"
-#include "debug.h"
+#include "game.hpp"
 
-using namespace std;
-
-int main()
+int main(int argc, char *argv[])
 {
-
-
-	Game game;
-
-
-	return 0;
+    Game game;
 }

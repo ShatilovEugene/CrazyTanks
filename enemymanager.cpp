@@ -1,19 +1,7 @@
-#include "enemymanager.h"
+#include "enemymanager.hpp"
 
-using std::cout;
-
-EnemyManager::EnemyManager()
+EnemyManager::EnemyManager(std::shared_ptr<MapManager> use_map_manager):
+    map_manager(use_map_manager)
 {
-#ifdef DEBUGMODE
-	std::cout <<"\nEnemy Manager constructor" << std::endl;
-#endif
-	//TODO realization
-}
 
-EnemyManager::~EnemyManager()
-{
-#ifdef DEBUGMODE
-	std::cout <<"\nEnemy Manager destructor" << std::endl;
-#endif
-	//TODO realization
 }
