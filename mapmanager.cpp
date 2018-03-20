@@ -41,7 +41,7 @@ MapManager::MapManager()
 
 bool MapManager::check_collision(unsigned int target_x, unsigned int target_y)
 {
-    if(target_x < 0 || target_y < 0 || target_y > (maze_height - 1) || target_x > (maze_width - 1))
+    if(target_y > (maze_height - 1) || target_x > (maze_width - 1))
         return false;
 
     if(maze[target_y][target_x] == 0)
